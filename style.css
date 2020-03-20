@@ -7,7 +7,7 @@
 }
 
 body{
-	overflow-x: hidden;
+	overflow-x: visible;
 	background: black;
 }
 header{
@@ -28,13 +28,14 @@ nav{
 img[src="logo.png"] {
 	height: 70px;
 }
-nav ul{
+ul{
 	display: flex;
 	list-style-type: none;
-	width: 40%;
-	justify-content: right;
+	width: 100%;
+	justify-content: center;
+	margin-top: 20px;
 }
-nav ul li a{
+ul li a{
 	text-decoration: none;
 	color: white;
 	padding: 15px 40px; 
@@ -42,7 +43,7 @@ nav ul li a{
 	border: 1px solid white;
 	transition: 0.5s ease;	
 }
-nav ul li a:hover{
+ul li a:hover{
 	color: black;
 	background: white;
 }
@@ -54,7 +55,7 @@ nav ul li a:hover{
 	color: white;
 	font-weight: 100;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 20px;
 	font-size: 2.2rem;
 	font-family: Open Sans;
 }
@@ -103,13 +104,14 @@ iframe{
 		width: 90%;
 	}
 	.hero {
-		font-size: 1.7rem;
+		font-size: 1.5rem;
+		text-align: center;
 	}
 	img[src="logo.png"] {
 		height: 50px;
 	}
-	nav ul li a{
-		padding: 10px 18px;
+	ul li a{
+		padding: 10px 15px;
 	}
 	iframe{
 		width: 90%;
