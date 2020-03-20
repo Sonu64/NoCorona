@@ -95,6 +95,7 @@ iframe{
 .tips-2 h1, .tips-2 p{
 	padding: 40px;
 }
+
 .article{
 	display: flex;
 	justify-content: space-between;
@@ -105,14 +106,23 @@ iframe{
 	margin: auto;
 	margin-top: 30px;
 	box-shadow: 0px 0px 10px 2px grey;
+	transition: 0.4s ease;
 }
 a{
 	text-decoration: none;
 	color: black;
 }
 .article img{
-	height: 100%;
+	height: 200px;
 	width: 200px;
+}
+.articles span{
+	position: relative;
+	top: 10px;
+	padding: 0px;
+}
+.articles a:hover .article{
+	box-shadow: 0px 0px 10px 2px gold;
 }
 @media only screen and (max-width: 800px) {
 	main{
@@ -148,7 +158,10 @@ a{
 		display: none;
 	}
 	.article img{
-		height: 100%;
+		height: 130px;
 		width: 130px;		
+	}
+	.articles span{
+		padding: 20px;
 	}
 }
