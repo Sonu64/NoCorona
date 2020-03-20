@@ -1,7 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: Product Sans;
+	font-family: 'Cabin', sans-serif;
 	word-spacing: 1px;
 	letter-spacing: 1px;
 }
@@ -12,7 +12,7 @@ body{
 }
 header{
 	position: fixed;
-	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("header_pic.jpg");
+	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("header_pic.jpg");
 	height: 50vh;
 	width: 100%;
 	background-size: cover;
@@ -135,12 +135,14 @@ footer{
 	width: 100%;
 	background: #2A2A2A;
 	text-align: center;
-	height: 50px;
+	height: 80px;
 	color: white;
+	margin-top: 40px;
 }  
 footer p{
-	line-height: 50px;
+	line-height: 80px;
 }
+
 @media only screen and (max-width: 800px) {
 	main{
 		margin-top: 250px;
