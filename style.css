@@ -137,22 +137,18 @@ a{
 		height: 350px;
 	}
 	.article{
-		width: 96%;
 		padding: 0px;
 	}
-	.article .left{
-
-	}
+	
 	.article h2{
 		font-size: 1rem;
-		padding: 20px 0px 0px 20px;
+		padding: 20px;
 	}
 	.article p{
-		font-size: 0.9rem;
-		padding: 20px 20px 20px 20px;
+		display: none;
 	}
 	.article img{
 		height: 100%;
-		width: 200px;		
+		width: 130px;		
 	}
 }
