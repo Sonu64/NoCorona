@@ -63,8 +63,6 @@ ul li a:hover{
 main{
 	margin-top: 300px;
 	position: absolute;
-}
-main{
 	width: 100%;
 	background: white;
 }
@@ -111,6 +109,12 @@ iframe{
 a{
 	text-decoration: none;
 	color: black;
+}
+.articles h1{
+	font-size: 2.2rem;
+}
+.articles h2{
+	font-size: 1.8rem;
 }
 .article img{
 	height: 200px;
