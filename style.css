@@ -7,8 +7,8 @@
 }
 
 body{
-	overflow-x: visible;
-	background: black;
+	overflow-x: hidden;
+	background: white;
 }
 header{
 	position: fixed;
@@ -66,7 +66,7 @@ main{
 }
 main{
 	width: 100%;
-	background: black;
+	background: white;
 }
 .headnote h2, .tips h2{
 	margin-bottom: 20px;
@@ -95,6 +95,25 @@ iframe{
 .tips-2 h1, .tips-2 p{
 	padding: 40px;
 }
+.article{
+	display: flex;
+	justify-content: space-between;
+	align-items: top;
+	padding: 20px;
+	width: 90%;
+	background: white;
+	margin: auto;
+	margin-top: 30px;
+	box-shadow: 0px 0px 10px 2px grey;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.article img{
+	height: 100%;
+	width: 200px;
+}
 @media only screen and (max-width: 800px) {
 	main{
 		margin-top: 250px;
@@ -116,5 +135,24 @@ iframe{
 	iframe{
 		width: 90%;
 		height: 350px;
+	}
+	.article{
+		width: 96%;
+		padding: 0px;
+	}
+	.article .left{
+
+	}
+	.article h2{
+		font-size: 1rem;
+		padding: 20px 0px 0px 20px;
+	}
+	.article p{
+		font-size: 0.9rem;
+		padding: 20px 20px 20px 20px;
+	}
+	.article img{
+		height: 100%;
+		width: 200px;		
 	}
 }
